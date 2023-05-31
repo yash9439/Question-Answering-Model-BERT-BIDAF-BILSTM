@@ -15,36 +15,54 @@ We trained each model on the Squad dataset using the training split and evaluate
 
 ## Results
 =============================================================
+<br>
 EM Score on Validation Dataset using BiLSTM Model = 00.04433060782188947
 F1 Score on Validation Dataset using BiLSTM Model = 28.518230394810734
+<br>
 ---------------------------------
+<br>
 EM Score on Train Dataset using BiLSTM Model = 00.05989334377627533
 F1 Score on Train Dataset using BiLSTM Model = 26.962483004132115
+<br>
 =============================================================
+<br>
 EM Score on Validation Dataset using BIDAF Model = 54.47480447480447
 F1 Score on Validation Dataset using BIDAF Model = 66.80005949338813
+<br>
 ---------------------------------
+<br>
 EM Score on Train Dataset using BIDAF Model = 49.979049303971324
 F1 Score on Train Dataset using BIDAF Model = 65.12755191469993
+<br>
 =============================================================
+<br>
 EM Score on Validation Dataset using BERT Model = 57.90863668807994
 F1 Score on Validation Dataset using BERT Model = 75.69647922632181
+<br>
 ---------------------------------
+<br>
 EM Score on Train Dataset using BERT Model = 82.08618068677455
 F1 Score on Train Dataset using BERT Model = 91.23183533851784
+<br>
 =============================================================
+<br>
 EM Score on Validation Dataset using DistilBERT Model = 56.13732637178603
 F1 Score on Validation Dataset using DistilBERT Model = 75.30296296892632
+<br>
 ---------------------------------
+<br>
 EM Score on Train Dataset using DistilBERT Model = 70.5635733290333
 F1 Score on Train Dataset using DistilBERT Model = 87.81218393573155
+<br>
 =============================================================
 
 
 After Ensembling the 4 models, 
 EM Score on Validation Dataset using DistilBERT Model = 77.49800955414012
 F1 Score on Validation Dataset using DistilBERT Model = 91.59243882523839
+<br>
 ---------------------------------
+<br>
 EM Score on Train Dataset using DistilBERT Model = 85.91103408430431
 F1 Score on Train Dataset using DistilBERT Model = 95.87697927456512
 
