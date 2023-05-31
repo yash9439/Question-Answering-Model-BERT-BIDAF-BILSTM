@@ -14,6 +14,19 @@ We used four different models for question answering:
 We trained each model on the Squad dataset using the training split and evaluated their performance on the validation split. We also created an ensembling model that combines the outputs of these models to improve the overall performance.
 
 ## Results
+<br>
+=============================================================
+<br>
+EM Score on Validation Dataset using BERT Model = 57.90863668807994
+<br>
+F1 Score on Validation Dataset using BERT Model = 75.69647922632181
+<br>
+---------------------------------
+<br>
+EM Score on Train Dataset using BERT Model = 82.08618068677455
+<br>
+F1 Score on Train Dataset using BERT Model = 91.23183533851784
+<br>
 =============================================================
 <br>
 EM Score on Validation Dataset using BiLSTM Model = 00.04433060782188947
@@ -37,18 +50,6 @@ F1 Score on Validation Dataset using BIDAF Model = 66.80005949338813
 EM Score on Train Dataset using BIDAF Model = 49.979049303971324
 <br>
 F1 Score on Train Dataset using BIDAF Model = 65.12755191469993
-<br>
-=============================================================
-<br>
-EM Score on Validation Dataset using BERT Model = 57.90863668807994
-<br>
-F1 Score on Validation Dataset using BERT Model = 75.69647922632181
-<br>
----------------------------------
-<br>
-EM Score on Train Dataset using BERT Model = 82.08618068677455
-<br>
-F1 Score on Train Dataset using BERT Model = 91.23183533851784
 <br>
 =============================================================
 <br>
