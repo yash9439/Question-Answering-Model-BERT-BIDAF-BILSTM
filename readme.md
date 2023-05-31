@@ -14,7 +14,40 @@ We used four different models for question answering:
 We trained each model on the Squad dataset using the training split and evaluated their performance on the validation split. We also created an ensembling model that combines the outputs of these models to improve the overall performance.
 
 ## Results
-The BIDAF model achieved the highest F1 score of 0.668 on the validation dataset, while the BiLSTM model performed the worst with an F1 score of 0.285. The ensembling model achieved an F1 score of 0.786 on the validation dataset, outperforming all individual models.
+=============================================================​
+EM Score on Validation Dataset using BiLSTM Model = 00.04433060782188947​
+F1 Score on Validation Dataset using BiLSTM Model = 28.518230394810734​
+---------------------------------​
+EM Score on Train Dataset using BiLSTM Model = 00.05989334377627533​
+F1 Score on Train Dataset using BiLSTM Model = 26.962483004132115​
+=============================================================​
+EM Score on Validation Dataset using BIDAF Model = 54.47480447480447​
+F1 Score on Validation Dataset using BIDAF Model = 66.80005949338813​
+---------------------------------​
+EM Score on Train Dataset using BIDAF Model = 49.979049303971324​
+F1 Score on Train Dataset using BIDAF Model = 65.12755191469993​
+=============================================================​
+EM Score on Validation Dataset using BERT Model = 57.90863668807994​
+F1 Score on Validation Dataset using BERT Model = 75.69647922632181​
+---------------------------------​
+EM Score on Train Dataset using BERT Model = 82.08618068677455​
+F1 Score on Train Dataset using BERT Model = 91.23183533851784​
+=============================================================​
+EM Score on Validation Dataset using DistilBERT Model = 56.13732637178603​
+F1 Score on Validation Dataset using DistilBERT Model = 75.30296296892632​
+---------------------------------​
+EM Score on Train Dataset using DistilBERT Model = 70.5635733290333​
+F1 Score on Train Dataset using DistilBERT Model = 87.81218393573155​
+=============================================================​
+
+
+After Ensembling the 4 models, 
+EM Score on Validation Dataset using DistilBERT Model = 77.49800955414012​
+F1 Score on Validation Dataset using DistilBERT Model = 91.59243882523839​
+---------------------------------​
+EM Score on Train Dataset using DistilBERT Model = 85.91103408430431​
+F1 Score on Train Dataset using DistilBERT Model = 95.87697927456512​
+
 
 ## Usage
 To use this project, follow these steps:
@@ -27,7 +60,7 @@ Create an ensembling model that combines the outputs of these models.
 Evaluate the performance of the ensembling model on the validation split of the dataset.
 
 ## Conclusion
-In conclusion, this project shows that BIDAF, DistilBERT, and ensembling models are effective for question answering on the Squad dataset, while BiLSTM did not perform well. Ensembling can further improve the performance of individual models. However, more advanced models and techniques could be explored to enhance the performance of question answering systems.
+In conclusion, this project shows that BIDAF, DistilBERT, BERT and ensembling models are effective for question answering on the Squad dataset, while BiLSTM did not perform well. Ensembling can further improve the performance of individual models. However, more advanced models and techniques could be explored to enhance the performance of question answering systems.
 
 
 Note : The code for the 4 Models are present in their respective model name folders.
